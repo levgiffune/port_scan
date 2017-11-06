@@ -50,7 +50,7 @@ try:
     try:
         for port in range(min_port, max_port):
             try:
-                sys.stdout.write(bcolors.WARNING + "\r" + " [*]scanning port %d/%d (%d%% done) scan time: %d\r" % (port, max_port, 100 * float(port)/max_port, datetime.now() - start_time) + bcolors.ENDC )
+                sys.stdout.write(bcolors.WARNING + "\r" + " [*]scanning port %d/%d (%d%% done)\r" % (port, max_port, 100 * float(port)/max_port) + bcolors.ENDC )
                 sys.stdout.flush()
                 code = scan(host, port)
                 if code == 0:
