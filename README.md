@@ -1,1 +1,3 @@
-A really simple port scanner I made because I was bored
+Simple python port scanner
+
+I made this because I was bored in class
