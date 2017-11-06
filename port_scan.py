@@ -33,7 +33,7 @@ def scan(host, port, r_code = 1):
     return r_code
 try:
     os.system('clear')
-    print(bcolors.OKBLUE + "Welcome to the port scanner." + bcolors.ENDC)
+    print(bcolors.HEADER + "Welcome to the port scanner." + bcolors.ENDC)
     try:
         hostname = raw_input(bcolors.WARNING + "\n[*]Enter a hostname or IP to begin: " + bcolors.ENDC + bcolors.OKGREEN)
     except KeyboardInterrupt:
