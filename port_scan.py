@@ -62,7 +62,7 @@ try:
         print(bcolors.WARNING + "\n[*]Interrupt requested.\n\n" + bcolors.ENDC)   
         stop_time = datetime.now()
         duration = stop_time - start_time
-
+	print("                                                      ")
         print(bcolors.WARNING + "\n[*]Scan terminated by user at: %s" % (time.strftime('%H:%M:%S')) + bcolors.ENDC )
         print(bcolors.WARNING + "\n[*]Time elapsed: %s"  % (duration) + bcolors.ENDC )
         print(bcolors.WARNING + "\n[*]Exiting...\n\n\n" + bcolors.ENDC)
