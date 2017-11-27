@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 import socket, sys, os, time
 from datetime import datetime
 
