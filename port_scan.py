@@ -4,7 +4,7 @@ import socket, sys, os, time
 from datetime import datetime
 
 host = ''
-#max_port = 1000
+max_port = 1000
 max_port = 65535
 min_port = 1
 
